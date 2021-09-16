@@ -38,6 +38,16 @@ background-color: $color-white;
 }
 .navbar {
     background-color: #E5E5E5;
+    & .navbar-toggler {
+        margin-bottom: 0.5rem;
+        &:focus {
+            box-shadow: none;
+        }
+        & .navbar-toggler-icon i {
+            color: $color-grey;
+        }
+    }
+    
     & .navbar-brand {
         color: $color-primary;
         font-family: $font-serif;
@@ -64,7 +74,18 @@ background-color: $color-white;
     }
     & .form-control {
         border-radius: 4px 0px 0px 4px;
+        &:active {
+            box-shadow: none;
+        }
     }
 }
 
-
+@media only screen and (max-width: 975px) {
+    .navbar .navbar-nav {
+        padding-top: 1.5rem !important;
+        margin-bottom: 2rem !important;
+    }
+    .navbar form {
+        margin-bottom: 2rem;
+    }
+}
