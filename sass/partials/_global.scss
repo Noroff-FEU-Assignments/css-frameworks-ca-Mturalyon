@@ -37,7 +37,7 @@ background-color: $color-white;
     color: $color-black;
 }
 .navbar {
-    background-color: #E5E5E5;
+    background-color: #EFEFEF;
     & .navbar-toggler {
         margin-bottom: 0.5rem;
         &:focus {
@@ -74,9 +74,11 @@ background-color: $color-white;
     }
     & .form-control {
         border-radius: 4px 0px 0px 4px;
-        &:active {
+        &:focus {
             box-shadow: none;
+            border: 1px solid $color-primary;
         }
+
     }
 }
 

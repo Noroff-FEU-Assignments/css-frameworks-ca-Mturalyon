@@ -15,7 +15,7 @@
 
 .hero-container {
   padding-top: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .hero-container h1, .hero-container .h1 {
@@ -102,6 +102,65 @@
           box-shadow: none;
 }
 
+.btn-group .btn {
+  background-color: #FFFFFF;
+  color: #E92569;
+  border: 1px solid #E92569;
+}
+
+.btn-group .btn:hover {
+  background-color: #E92569;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+}
+
+.btn-group .btn:focus {
+  background-color: #E92569;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.card {
+  -webkit-box-shadow: 0 6px 10px #00000018;
+          box-shadow: 0 6px 10px #00000018;
+}
+
+.card-body .card-title {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.card-body .card-text {
+  margin-bottom: 1.5rem;
+  color: #767676;
+}
+
+.card-body .btn {
+  border: none;
+  border-radius: 4px;
+  background-color: #E92569;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.card-body .btn:hover {
+  background-color: #c71452;
+  color: #FFFFFF;
+}
+
+.card-body .btn::before {
+  content: "";
+  border-radius: 0 4px 4px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  background-color: #767676;
+}
+
 body {
   background: white;
   background: radial-gradient(circle, white 0%, #e5e5e5 50%);
@@ -155,7 +214,7 @@ body {
 }
 
 .navbar {
-  background-color: #E5E5E5;
+  background-color: #EFEFEF;
 }
 
 .navbar .navbar-toggler {
@@ -200,9 +259,10 @@ body {
   border-radius: 4px 0px 0px 4px;
 }
 
-.navbar .form-control:active {
+.navbar .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
+  border: 1px solid #E92569;
 }
 
 @media only screen and (max-width: 975px) {
