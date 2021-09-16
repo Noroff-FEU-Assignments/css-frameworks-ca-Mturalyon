@@ -1,3 +1,14 @@
-body {
-    background-color: red;
+//colors
+$color-primary: #E92569;
+$color-black: #0A0A0A;
+$color-grey: #767676;
+$color-light-grey: #C7C7C7;
+$color-white: #FFFFFF;
+//fonts
+$font-serif: 'Playfair Display', serif;
+$font-sans-serif: 'Lato', sans-serif;
+
+.background-circle {
+background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 50%);
 }

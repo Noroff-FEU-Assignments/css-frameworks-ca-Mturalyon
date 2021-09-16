@@ -1,5 +1,190 @@
+.background-circle {
+  background: white;
+  background: radial-gradient(circle, white 0%, #e5e5e5 50%);
+}
+
+.carousel .carousel-indicators button {
+  margin: 0 0.5rem;
+  height: 30px;
+  opacity: 1;
+}
+
+.carousel .carousel-indicators button.active {
+  background-color: #E92569 !important;
+}
+
+.hero-container {
+  padding-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.hero-container h1, .hero-container .h1 {
+  color: #E92569;
+  font-family: "Playfair Display", serif;
+}
+
+.hero-container p {
+  color: #767676;
+}
+
+.social-incoming .social-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-incoming .social-container h2, .social-incoming .social-container .h2 {
+  font-size: 1.2rem;
+  margin: 0 1rem 0 0;
+}
+
+.social-incoming .social-container a {
+  margin: 0 1rem 0 0;
+  color: #0A0A0A;
+}
+
+.social-incoming .social-container a:hover {
+  color: #E92569;
+}
+
+.tab-container {
+  margin-bottom: 5rem;
+}
+
+.tab-container .tab-content {
+  padding: 3rem;
+  background-color: #FFFFFF;
+  border-radius: 0 10px 10px 10px;
+}
+
+.tab-container .nav-tabs .nav-item .nav-link {
+  font-weight: bold;
+  color: #E92569;
+}
+
+.tab-container .nav-tabs .nav-item .nav-link.active {
+  color: #767676;
+}
+
+.accordion {
+  margin-bottom: 4rem;
+}
+
+.accordion-body {
+  background: white;
+  background: radial-gradient(circle, white 0%, #f7f7f7 50%);
+}
+
+.accordion-body .social-container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem 0 1rem 0;
+}
+
+.accordion-item .accordion-button {
+  color: #E92569;
+  font-weight: bold;
+}
+
+.accordion-item .accordion-button:not(.collapsed) {
+  color: #E92569;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E92569;
+}
+
+.accordion-item .accordion-button:focus {
+  border-color: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 body {
-  background-color: red;
+  background: white;
+  background: radial-gradient(circle, white 0%, #e5e5e5 50%);
+  font-family: "Lato", sans-serif !important;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: #FFFFFF;
+}
+
+.footer .footer__flex {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer .footer__flex p {
+  margin: 0;
+  color: #767676;
+}
+
+.footer .footer__flex .footer__social a {
+  color: #767676;
+  margin-right: 0.5rem;
+}
+
+.footer .footer__flex .footer__social a:hover {
+  color: #E92569;
+}
+
+.nav-active, .navbar .nav-link:hover {
+  background-color: #FFFFFF;
+  color: #0A0A0A;
+}
+
+.navbar {
+  background-color: #E5E5E5;
+}
+
+.navbar .navbar-brand {
+  color: #E92569;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-style: italic;
+  margin-right: 3rem;
+}
+
+.navbar .nav-link {
+  padding: 0 1.2rem;
+  font-size: 1.2rem;
+  color: #0A0A0A;
+}
+
+.navbar .btn {
+  background-color: #E92569;
+  color: #FFFFFF;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.navbar .btn:hover {
+  color: #FFFFFF;
+  background-color: #c71452;
+}
+
+.navbar .form-control {
+  border-radius: 4px 0px 0px 4px;
 }
 
 :root {

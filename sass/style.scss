@@ -1,6 +1,7 @@
 @import "partials/variables";
+@import "partials/layout";
+@import "partials/global";
 
-// SCSS
 @import "../bootstrap-scss/functions";
 @import "../bootstrap-scss/variables";
 @import "../bootstrap-scss/mixins";
@@ -38,4 +39,3 @@
 @import "../bootstrap-scss/placeholders";
 @import "../bootstrap-scss/helpers";
 @import "../bootstrap-scss/utilities/api";
-

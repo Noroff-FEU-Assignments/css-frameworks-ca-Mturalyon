@@ -1,0 +1,90 @@
+//INDEX
+//carousel
+.carousel .carousel-indicators button {
+    margin: 0 0.5rem;
+    height: 30px;
+    opacity: 1;
+    &.active {
+        background-color: $color-primary !important;
+    }
+}
+
+//hero
+.hero-container {
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+    & h1 {
+        color: $color-primary;
+        font-family: $font-serif;
+    }
+    & p {
+        color: $color-grey;
+    }
+}
+
+//tabs
+.social-incoming .social-container {
+    display: flex;
+        align-items: center;
+        & h2 {
+            font-size: 1.2rem;
+            margin: 0 1rem 0 0;
+        }
+        & a {
+            margin: 0 1rem 0 0;
+            color: $color-black;
+            &:hover {
+            color:  $color-primary;
+            }
+        }
+}
+
+//--tab
+.tab-container {
+    margin-bottom: 5rem;
+    & .tab-content {
+        padding: 3rem;
+        background-color: $color-white;
+        border-radius: 0 10px 10px 10px;
+    }
+    
+    & .nav-tabs .nav-item .nav-link {
+        font-weight: bold;
+        color: $color-primary;
+        &.active {
+            color: $color-grey;
+        }
+    }
+}
+//--accordion
+.accordion {
+    margin-bottom: 4rem;
+}
+
+.accordion-body {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(247, 247, 247) 50%);
+    & .social-container {
+        justify-content: center;
+        margin: 2rem 0 1rem 0;
+    }
+}
+.accordion-item {
+    & .accordion-button {
+        color: $color-primary;
+        font-weight: bold;
+
+        &:not(.collapsed) {
+            color: $color-primary;
+            background-color: $color-white;
+            border-bottom: 1px solid $color-primary;
+        }
+        &:focus {
+            border-color: none;
+            box-shadow: none;
+        }
+    }
+}
+
+
+
