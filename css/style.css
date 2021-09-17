@@ -117,7 +117,7 @@
 .btn-group .btn:focus {
   background-color: #E92569;
   color: #FFFFFF;
-  border: 1px solid transparent;
+  border: 1px solid #E92569;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -159,6 +159,93 @@
   width: 20px;
   height: 100%;
   background-color: #767676;
+}
+
+.contact-container h1, .contact-container .h1 {
+  font-family: "Playfair Display", serif;
+  color: #E92569;
+}
+
+.contact-container form {
+  -webkit-box-shadow: 0 6px 10px #00000018;
+          box-shadow: 0 6px 10px #00000018;
+  margin-bottom: 3rem;
+  background-color: #EFEFEF;
+}
+
+.contact-container form .form-label {
+  color: #767676;
+}
+
+.contact-container form span {
+  background-color: #C7C7C7;
+  color: #FFFFFF;
+}
+
+.contact-container form .check-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-container form .form-check-input {
+  margin-right: 1rem;
+  min-width: 33px;
+  min-height: 33px;
+  background-color: #E92569;
+}
+
+.contact-container form input, .contact-container form span, .contact-container form textarea {
+  border: 1px solid transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contact-container form input:focus, .contact-container form textarea:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid #E92569;
+}
+
+.contact-container form button {
+  background-color: #767676;
+  font-weight: bold;
+  min-height: 55px;
+  border: 1px solid transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contact-container form button:hover {
+  background-color: #E92569;
+  border: transparent;
+}
+
+.contact-container form button:active, .contact-container form button:focus {
+  border: 1px solid transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #E92569;
+}
+
+.contact-container .contact-info .contact-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 body {
