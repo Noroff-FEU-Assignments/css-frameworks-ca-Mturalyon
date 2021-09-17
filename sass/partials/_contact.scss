@@ -1,0 +1,73 @@
+//CONTACT
+.contact-container {
+    & h1 {
+        font-family: $font-serif;
+        color: $color-primary;
+    }
+    & form {
+        box-shadow: 0 6px 10px #00000018;
+        margin-bottom: 3rem;
+        background-color: $color-light-grey-extra;
+        & .form-label {
+            color: $color-grey;
+        }
+        & span {
+            background-color: $color-light-grey;
+            color: $color-white;
+        }
+        & .check-container {
+            display: flex;
+            align-items: center;
+        }
+        & .form-check-input {
+            margin-right: 1rem;
+            min-width: 33px;
+            min-height: 33px;
+            background-color: $color-primary;
+        }
+        & input, span, textarea {
+            border: 1px solid transparent;
+            box-shadow: none;
+        }
+        & input:focus, textarea:focus {
+            box-shadow: none;
+            border: 1px solid $color-primary;
+        }
+        & button {
+            background-color: $color-grey;
+            font-weight: bold;
+            min-height: 55px;
+            border: 1px solid transparent;
+            box-shadow: none;
+        }
+        & button:hover {
+            background-color: $color-primary;
+            border: transparent;
+        }
+        & button:active, button:focus {
+            border: 1px solid transparent;
+            box-shadow: none;
+            background-color: $color-primary;
+        }
+    }
+    & .contact-info {
+        display: flex;
+        flex-direction: column;
+
+        & .contact-flex {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+        & i {
+            margin-right: 2rem;
+            color: $color-grey;
+        }
+        & p {
+            margin-bottom: 0.5rem;
+        }
+        & .last-icon {
+            margin-left: -1rem;
+        }
+    }
+}

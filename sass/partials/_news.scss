@@ -1,0 +1,57 @@
+//NEWS
+//buttongroup
+.btn-group {
+    & .btn {
+        background-color: $color-white;
+        color: $color-primary;
+        border: 1px solid $color-primary;
+        &:hover {
+            background-color: $color-primary;
+            color: $color-white;
+            border: 1px solid transparent;
+        }
+        &:focus {
+            background-color: $color-primary;
+            color: $color-white;
+            border: 1px solid $color-primary;
+            box-shadow: none;
+        }
+    }
+}
+
+//cards
+.card {
+    box-shadow: 0 6px 10px #00000018;
+}
+.card-body {
+    
+    & .card-title {
+        margin-bottom: 1rem;
+        font-weight: bold;
+    }
+    & .card-text {
+    margin-bottom: 1.5rem;
+    color: $color-grey;
+    }
+    & .btn {
+        border: none;
+        border-radius: 4px;
+        background-color: $color-primary;
+        color: $color-white;
+        position: relative;
+        &:hover {
+            background-color: darken($color-primary, 10);
+            color: $color-white;
+        }
+        &::before {
+            content: "";
+            border-radius: 0 4px 4px 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 20px;
+            height: 100%;
+            background-color: $color-grey;
+        }
+    }
+}

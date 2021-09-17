@@ -1,7 +1,6 @@
 //footer
 body {
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 50%);
+    @extend .background-circle;
     font-family: $font-sans-serif !important;
     min-height: 100vh;
     display: flex;
